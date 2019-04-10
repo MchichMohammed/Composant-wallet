@@ -1,0 +1,4 @@
+﻿composant2.obj : error LNK2019: symbole externe non résolu "class std::vector<class Bloc,class std::allocator<class Bloc> > __cdecl getBlocs(void)" (?getBlocs@@YA?AV?$vector@VBloc@@V?$allocator@VBloc@@@std@@@std@@XZ) référencé dans la fonction "float __cdecl verifyAmount(unsigned char * const)" (?verifyAmount@@YAMQAE@Z)
+composant2.obj : error LNK2019: symbole externe non résolu "unsigned char * __cdecl getPublicKey(unsigned char * const)" (?getPublicKey@@YAPAEQAE@Z) référencé dans la fonction "class TX __cdecl createTransaction(unsigned char * const,unsigned char * const,float)" (?createTransaction@@YA?AVTX@@QAE0M@Z)
+MSVCRTD.lib(exe_main.obj) : error LNK2019: symbole externe non résolu _main référencé dans la fonction "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\Users\mchimo17\Desktop\Composant_1_C--master\Composant1\Debug\composant2.exe : fatal error LNK1120: 3 externes non résolus
